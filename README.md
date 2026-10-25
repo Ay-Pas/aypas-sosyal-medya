@@ -1,1 +1,33 @@
-# aypas-sosyal-medya
+# Ay-Pas Sosyal Medya
+
+Bu depo, Ay-Pas Refrigeration'ın (@aypasrefrigeration) Instagram'da paylaşılan özel gün görsellerini tutar.
+Görseller Claude tarafından tasarlanır ve Metricool üzerinden otomatik olarak planlanır.
+Instagram paylaşımları Facebook sayfasına otomatik düşer.
+
+## Klasörler
+- `YYYY/` — yayınlanan / planlanan görseller (ör. `2026/01_29ekim.jpg`)
+- `araclar/logo.jpg` — Ay-Pas logosu (açık gri zemin, mavi #0F467E)
+- `araclar/ornek_tasarimlar.py` — ilk dört tasarımın kaynağı (Pillow + Poppins). Yeni tasarımlar bu stili izler.
+
+## Kurallar (aylık otomatik görev için)
+- Format: 1080×1350 JPG, Instagram dikey.
+- Her görselde logo altta; metin Türkçe + İngilizce.
+- Renkler: resmi bayramlar kırmızı (#E30A17), anma günleri koyu/siyah, diğerleri Ay-Pas mavisi (#0F467E) veya lacivert.
+- Atatürk veya gerçek kişi fotoğrafı/çizimi kullanılmaz; tipografi ve sembollerle çalışılır.
+- Paylaşım metni: Türkçe paragraf, boş satır, İngilizce paragraf, boş satır, 3–5 hashtag (#AyPas dahil).
+- Saat: hafta içi 10:00 (Metricool en iyi saat). 10 Kasım 09:05. Hafta sonuna denk gelirse yine o gün 10:00.
+- Metricool brand id: 7639544, ağ: yalnızca instagram.
+- Görsel linki: `https://raw.githubusercontent.com/Ay-Pas/aypas-sosyal-medya/main/<YYYY>/<dosya>.jpg`
+
+## Özel günler
+Resmi: 1 Ocak, 23 Nisan, 1 Mayıs, 19 Mayıs, 15 Temmuz (anma), 30 Ağustos, 29 Ekim, 10 Kasım (anma).
+Dini (tarihleri her yıl değişir, web'den doğrulanır): Ramazan Bayramı, Kurban Bayramı.
+Diğer: 8 Mart Dünya Kadınlar Günü, 24 Kasım Öğretmenler Günü, Anneler Günü (Mayıs 2. Pazar), Babalar Günü (Haziran 3. Pazar).
+
+## Planlanmış olanlar
+| Tarih | Gün | Dosya |
+|---|---|---|
+| 2026-10-29 10:00 | Cumhuriyet Bayramı (103. yıl) | 2026/01_29ekim.jpg |
+| 2026-11-10 09:05 | Atatürk'ü Anma | 2026/02_10kasim.jpg |
+| 2026-11-24 10:00 | Öğretmenler Günü | 2026/03_24kasim.jpg |
+| 2027-01-01 10:00 | Yılbaşı | 2026/04_yilbasi.jpg |
