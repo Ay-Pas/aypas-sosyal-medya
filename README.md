@@ -7,13 +7,15 @@ Instagram paylaşımları Facebook sayfasına otomatik düşer.
 ## Klasörler
 - `YYYY/` — yayınlanan / planlanan görseller (ör. `2026/01_29ekim.jpg`)
 - `araclar/logo.jpg` — Ay-Pas logosu (açık gri zemin, mavi #0F467E)
-- `araclar/ornek_tasarimlar.py` — ilk dört tasarımın kaynağı (Pillow + Poppins). Yeni tasarımlar bu stili izler.
+- `araclar/tasarim.py` — KURUMSAL ŞABLON. Tüm görseller bu dosyadaki `kart()` fonksiyonuyla üretilir.
+- `araclar/fonts/` — Inter / Inter Display (OFL lisanslı)
 
 ## Kurallar (aylık otomatik görev için)
-- Format: 1080×1350 JPG, Instagram dikey.
-- Her görselde logo altta; metin Türkçe + İngilizce.
-- Renkler: resmi bayramlar kırmızı (#E30A17), anma günleri koyu/siyah, diğerleri Ay-Pas mavisi (#0F467E) veya lacivert.
-- Atatürk veya gerçek kişi fotoğrafı/çizimi kullanılmaz; tipografi ve sembollerle çalışılır.
+- Kullanıcının isteği: görseller CİDDİ, PROFESYONEL ve KURUMSAL olmalı.
+- Yeni görsel = `araclar/tasarim.py` içindeki `kart()` ile; ızgara, tipografi, alt bant DEĞİŞTİRİLMEZ.
+- Yasak: clip-art, emoji, ikon süsü, kar tanesi/balon/konfeti, gradyan efektleri, birden fazla sembol, gerçek kişi görseli (Atatürk dahil). İzinli tek sembol: ay-yıldız (milli bayramlarda). İzinli tek vurgu: çok soluk büyük yıl/sayı (filigran).
+- Format: 1080×1350 JPG. Metin Türkçe + İngilizce, kısa ve resmi; başlık en fazla 2 satır.
+- Renkler: milli bayramlar KIRMIZI (beyaz alt bant), anma günleri SİYAH, diğerleri MAVI veya LACIVERT.
 - Paylaşım metni: Türkçe paragraf, boş satır, İngilizce paragraf, boş satır, 3–5 hashtag (#AyPas dahil).
 - Saat: hafta içi 10:00 (Metricool en iyi saat). 10 Kasım 09:05. Hafta sonuna denk gelirse yine o gün 10:00.
 - Metricool brand id: 7639544, ağ: yalnızca instagram.
