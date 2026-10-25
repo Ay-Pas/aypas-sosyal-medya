@@ -13,7 +13,7 @@ Instagram paylaşımları Facebook sayfasına otomatik düşer.
 ## Kurallar (aylık otomatik görev için)
 - Kullanıcının isteği: görseller CİDDİ, PROFESYONEL ve KURUMSAL olmalı.
 - Yeni görsel = `araclar/tasarim.py` içindeki `kart()` ile; ızgara, tipografi, alt bant DEĞİŞTİRİLMEZ.
-- Yasak: clip-art, emoji, ikon süsü, kar tanesi/balon/konfeti, gradyan efektleri, birden fazla sembol, gerçek kişi görseli (Atatürk dahil). İzinli tek sembol: ay-yıldız (milli bayramlarda). İzinli tek vurgu: çok soluk büyük yıl/sayı (filigran).
+- Yasak: clip-art, emoji, ikon süsü, kar tanesi/balon/konfeti, gradyan efektleri, birden fazla sembol, gerçek kişi görseli (Atatürk dahil). Görsel başına EN FAZLA BİR sembolik öğe, soluk/ince çizgi halinde: `dalgali_bayrak()` (milli bayramlar), `anitkabir()` (anma günleri), ileride benzer mimari/anıt siluetleri (ör. Dumlupınar anıtı – 30 Ağustos), ya da çok soluk büyük yıl/sayı (filigran). Yeni sembol eklenecekse aynı ince çizgi / düşük opaklık dilinde çizilir.
 - Format: 1080×1350 JPG. Metin Türkçe + İngilizce, kısa ve resmi; başlık en fazla 2 satır.
 - Renkler: milli bayramlar KIRMIZI (beyaz alt bant), anma günleri SİYAH, diğerleri MAVI veya LACIVERT.
 - Paylaşım metni: Türkçe paragraf, boş satır, İngilizce paragraf, boş satır, 3–5 hashtag (#AyPas dahil).
